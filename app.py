@@ -5,7 +5,7 @@ import MySQLdb.cursors
 app = Flask(__name__)
 app.secret_key = "clave"
 
-app.config['MYSQL_HOST'] = "44.192.54.174"
+app.config['MYSQL_HOST'] = "54.197.231.224"
 app.config['MYSQL_USER'] = "axel1234"
 app.config['MYSQL_PASSWORD'] = "654321"
 app.config['MYSQL_DB'] = "sistema_ventas"
